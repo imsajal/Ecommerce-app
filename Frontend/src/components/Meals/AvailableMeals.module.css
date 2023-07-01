@@ -1,0 +1,46 @@
+.meals {
+  max-width: 100rem;
+  width: 100%;
+  margin: 1rem auto;
+  animation: meals-appear 1s ease-out forwards;
+  
+}
+
+.meals ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.button {
+  background-color: #ffffffff;
+  border: 2px solid rgb(13, 19, 13);
+  color: rgb(14, 8, 8);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 280px;
+  cursor: pointer;
+  border-radius: 200px;
+  width:63%;
+  float:right;
+  clear: both;
+  
+
+}
+
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

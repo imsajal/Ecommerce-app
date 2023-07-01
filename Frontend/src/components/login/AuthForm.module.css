@@ -1,0 +1,124 @@
+.auth {
+  margin: auto;
+  width: 95%;
+  max-width: 30rem;
+  border-radius: 6px;
+  background-color: #292b0dbd;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  text-align: left;
+}
+.back {
+  background-color: rgb(255, 255, 255);
+  height: 140vh;
+  background-image: url("../login/backimage.jpeg");
+  display: flex;
+  justify-content: center;
+}
+
+
+.button {
+  background-color: #d8c839;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  float:right;
+  clear:both;
+}
+
+
+.buttonapp {
+  background-color: #136e2eee;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  float:right;
+  clear:both;
+}
+
+.required:after {
+  content:" *";
+  color: red;
+}
+.auth h1 {
+  text-align: center;
+  color: white;
+  
+}
+.auth h3 {
+  text-align: left;
+  color: rgb(252, 17, 17);
+  font-size: 10pt;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  display: block;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.control input {
+  font: inherit;
+  background-color: #f1e1fc;
+  color: #0e0505;
+  border-radius: 4px;
+  border: 1px solid white;
+  width: 100%;
+  text-align: left;
+  padding: 0.25rem;
+}
+
+.actions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actions button {
+  cursor: pointer;
+  font: inherit;
+  color: rgb(27, 143, 33);
+  background-color: #ffffff;
+  border: 1px solid #9f5ccc;
+  border-radius: 4px;
+  padding: 0.5rem 2.5rem;
+}
+
+.actions button:hover {
+  background-color: #ecf3ef;
+  border-color: #eef5ee;
+}
+
+.actions .toggle {
+  margin-top: 1rem;
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  padding: 0.15rem 1.5rem;
+}
+
+.actions .toggle:hover {
+  background-color: transparent;
+  color: #f5f2f7;
+}
+
